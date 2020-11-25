@@ -21,7 +21,7 @@ class ConfigProvider
                     'id' => 'config',
                     'description' => 'The config for encrypter.',
                     'source' => __DIR__ . '/../publish/encrypter.php',
-                    'destination' => BASE_PATH . '/config/autoload/async_queue.php',
+                    'destination' => BASE_PATH . '/config/autoload/encrypter.php',
                 ],
             ],
         ];
